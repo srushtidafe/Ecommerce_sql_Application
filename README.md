@@ -59,8 +59,8 @@ In this project, we have four layers-
 *POST /address - create a new address
 *DELETE /product/{id} - delete an product by id
 >## Application_properties
-spring.datasource.url=jdbc:mysql://localhost:Portname/<database-name>
-spring.datasource.username=<userName>
+spring.datasource.url=jdbc:mysql://localhost:3306/Ecommerce
+spring.datasource.username=root
 spring.datasource.password=<password>
 spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver
 spring.jpa.hibernate.ddl-auto=update
